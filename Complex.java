@@ -44,6 +44,6 @@ public class Complex {
         if (i >= 0) {
             return r + "+" + i + "i";
         }
-        return r + "-" -i + "i";
+        return r + "-" + (-i) + "i";
     }
 }
